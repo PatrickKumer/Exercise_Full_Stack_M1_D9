@@ -20,5 +20,6 @@ const createBingoFields = function () {
 }
 
 const changeNumbers = function() {
-    let randomNumber = Math.floor(Math.random() * 76)
+    let arr = [numberOfFields]
+    arr= Math.floor(Math.random() * 76 + 1)
 }
